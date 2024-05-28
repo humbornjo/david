@@ -3,19 +3,34 @@
   src: url('../font/Pacifico-Regular.ttf') format('woff'),
 }
 
+* {
+}
+
+
 body {
   background-color: #ccc;
+  height:80vh;
+  overflow:hidden
+}
+
+img {
+  width: 33%;  /* Optional: Set width for better responsiveness */
+  height: auto;
+  min-width: 314px
+}
+
+.saul {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .david {
   display: flex;
-  vertical-align: middle;
   padding: 20px;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin:auto;
   width: 60vw;
   background-color: #fff;
@@ -33,11 +48,11 @@ body {
   width: 100%;
   margin: 0px 0px 30px 0px;
   text-align: center;
-  color: transparent;
-  background-repeat: no-repeat;  
-  background-image: url("../img/react_kawaii.png");
-  background-position: center;
-  line-height:10;
+  /* color: transparent; */
+  /* background-repeat: no-repeat;   */
+  /* background-image: url("../img/react_kawaii.png"); */
+  /* background-position: center; */
+  /* line-height:10; */
 }
 
 .container-gallery {

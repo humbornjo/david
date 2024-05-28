@@ -4,6 +4,7 @@ import { getAllFiles } from "~/utils/fs";
 import * as path from 'path';
 
 import "~/css/style.css"
+import react_kawaii from '../img/react_kawaii.png';
 
 export const meta: MetaFunction = () => {
   return [
@@ -35,15 +36,17 @@ export default function Index() {
   })
 
   return (
-    <div className="david">
-      <div className="container-title pacifico-regular" >
-        <h1 >50 Project with React</h1>
-      </div>
-      <div className="container-logo">
-        WTF
-      </div>
-      <div className="container-gallery">
-        {gallery}
+    <div className="saul">
+      <div className="david">
+        <div className="container-title pacifico-regular" >
+          <h1 >50 Project with React</h1>
+        </div>
+        <div className="container-logo">
+          <img src={react_kawaii} alt="react-kawaii" />
+        </div>
+        <div className="container-gallery">
+          {gallery}
+        </div>
       </div>
     </div>
   );
