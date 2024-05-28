@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'Pacifico';
+  src: url('../font/Pacifico-Regular.ttf') format('woff'),
+}
+
+body {
+  background-color: #ccc;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.david {
+  display: flex;
+  vertical-align: middle;
+  padding: 20px;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin:auto;
+  width: 60vw;
+  background-color: #fff;
+  border-radius: 20px;
+  min-width: 500px;
+}
+
+.container-title {
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+
+.container-logo {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+  text-align: center;
+  color: transparent;
+  background-repeat: no-repeat;  
+  background-image: url("../img/react_kawaii.png");
+  background-position: center;
+  line-height:10;
+}
+
+.container-gallery {
+  display:flex;
+  align-content: center;
+}
+
+.container-project {
+  width: 20vw;
+  margin: 10px 0px 10px 0px;
+  justify-content:center;
+  align-self: center;
+  text-align: center;
+  min-width: 150px;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,36 +1,9 @@
-# Welcome to Remix + Vite!
+# David
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/guides/vite) for details on supported features.
+David is the third king of the United Kingdom of Israel. It's his fate.
 
-## Development
+May I conquer my Saul.
 
-Run the Vite dev server:
+## Perpose 
 
-```shellscript
-npm run dev
-```
-
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+This project translate ![projects50days](https://github.com/bradtraversy/50projects50days) into React with Remix. And will give a gallery to exhibit them all.
