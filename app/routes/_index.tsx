@@ -2,6 +2,7 @@ import type { MetaFunction, LinksFunction } from "@remix-run/node";
 import { Link, useLoaderData } from "@remix-run/react";
 import { getAllFiles } from "~/utils/fs";
 import * as path from 'path';
+import FullPageCanvas from '../utils/components/bkground'
 
 import "~/css/style.css"
 import react_kawaii from '../img/react_kawaii.png';
@@ -20,9 +21,11 @@ export async function loader() {
 
 function Project({ name, route }: { name: string, route: string }) {
   return (
-    <div className="container-project pacifico-regular" style={{ fontSize: "1.3em" }}>
-      <Link to={"/" + route}>{name}</Link>
-    </div>
+    <Link to={"/" + route}>
+      <div className="container-project poetsen-one-regular  box-shadow-tight" style={{ fontSize: "1.3em" }}>
+        {name}
+      </div >
+    </Link>
   )
 }
 
@@ -36,10 +39,12 @@ export default function Index() {
   })
 
   return (
+
     <div className="saul">
+      <FullPageCanvas />
       <div className="david">
         <div className="container-title pacifico-regular" >
-          <h1 >50 Project with React</h1>
+          <h1 >50 Project with</h1>
         </div>
         <div className="container-logo">
           <img src={react_kawaii} alt="react-kawaii" />
