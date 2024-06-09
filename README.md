@@ -6,4 +6,4 @@ May I conquer my Saul.
 
 ## Perpose 
 
-This project translate ![projects50days](https://github.com/bradtraversy/50projects50days) into React with Remix. And will give a gallery to exhibit them all.
+This project translate [projects50days](https://github.com/bradtraversy/50projects50days) into React with Remix. And will give a gallery to exhibit them all.
